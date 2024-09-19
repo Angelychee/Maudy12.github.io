@@ -23,12 +23,8 @@
     </header>
     
     <main>
-        <?php
-        $page = isset($_GET['page']) ? $_GET['page'] : 'about'; // Default to 'about'
-        
-        switch ($page) {
-            case 'about':
-                echo '<h2>About me</h2>
+    
+        <h2>About me</h2>
                 <ul>
                     <p>- NIS: 19030.</p>
                     <p>- Nama: Maudy Ari Khofifah.</p>
@@ -37,31 +33,22 @@
                     <p>- Tempat, Tanggal Lahir: Banjarnegara, 12 April 2008.</p>
                     <p>- Alamat: Desa Rakitan RT01 RW02 Kecamatan Madukara Kabupaten Banjarnegara.</p>
                     <img src="image/Maudy.jpeg" alth=""  style="padding: 1cm;width: 250px;">
-                </ul>';
-                break;
-                
-            case 'education':
-                echo '<h2>School</h2>
+                </ul>
+                <h2>School</h2>
                 <ul>
                     <p>- PAUD  : PAUD Tunas Desa Rakitan.</p>
                     <p>- TK    : TK Pertiwi Tambak Arum.</p>
                     <p>- SD    : SD Negeri 2 Rakitan.</p>
                     <p>- SMP   : SMP Negeri 3 Banjarnegara.</p>
                     <p>- SMK   : SMK Negeri 1 Bawang.</p>
-                </ul>';
-                break;
-                
-            case 'experience':
-                echo '<h2>Experience</h2>
+                </ul>
+               <h2>Experience</h2>
                 <ul>
                     <p>- Menjadi Bendahara Osis saat SMP.</p>
                     <p>- Menjadi Dewan Penggalang saat SMP.</p>
                     <p>- Mengikuti organisasi pemuda pemudi di desa.</p>
-                </ul>';
-                break;
-                
-            case 'skills':
-                echo '<h2>Skill</h2>
+                </ul>
+               <h2>Skill</h2>
                 <div>
                         <h3>Hard Skill</h3>
                     </div>
@@ -74,11 +61,8 @@
                 <ul class="portfolio-item">
                     <p>Mudah bersosialisasi dengan sesama.</p>
                     <p>Memiliki rasa ingin tahu yang tinggi.</p>
-                </ul>';
-                break;
-                
-            case 'portofolio':
-                echo '<h2>Project</h2>
+                </ul>
+            <h2>Project</h2>
                 <ul>
                     <h3>Desain Figma</h3>
                     <img src="image/Tampilan figma.jpg" alth=""  style="padding: 1cm;width: 900px;">
@@ -92,23 +76,16 @@
                     <img src="image/Logo PPLG.jpeg" alth=""  style="padding: 1cm;width: 400px;">
                     <h3>Desain Bussiness Card menggunakan Coreldraw</h3>
                     <img src="image/Maudy Ari Khofifah.png" alth=""  style="padding: 1cm;width: 400px;">
-                </ul>';
-                break;
-                
-            case 'contact':
-            default:
-                echo '<h2>Contact</h2>
+                </ul>
+        <h2>Contact</h2>
                     <li>instagram: _m4udy</li>
                     <li>Tik tok: mxodd._</li>
                     <li>Email: maudykhofifah@gmail.com</li>
-                    <p>Telepon: +62-857-001-643-92</p>';
-                break;
-        }
-        ?>
+                    <p>Telepon: +62-857-001-643-92</p>
     </main>
     
     <footer>
-        <p>&copy; <?php echo date('Y'); ?> Website Maudy Ari Khofifah.</p>
+        <p>Website Maudy Ari Khofifah.</p>
     </footer>
 </body>
 </html>
